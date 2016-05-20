@@ -1,0 +1,6 @@
+- Add username field to password form and integrate it with encryption/decryption
+- Add about button to password form for clarification of app use
+- Add find functionality
+- Increase overall security
+- Implement additional error testing/handling
+- Remove test buttons and test input generator when finished

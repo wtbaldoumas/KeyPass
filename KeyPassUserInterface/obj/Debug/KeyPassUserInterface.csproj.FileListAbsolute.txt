@@ -1,0 +1,17 @@
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassUserInterface.dll
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassUserInterface.pdb
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.csprojResolveAssemblyReference.cache
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface._AboutForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.ClockControl.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.GroupDeleteForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.GroupForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.GroupTreeControl.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.KeyForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.KeyListControl.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.MainForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.PasswordForm.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.Properties.Resources.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface._StatusStripControl.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.csproj.GenerateResource.Cache
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.dll
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassUserInterface\obj\Debug\KeyPassUserInterface.pdb

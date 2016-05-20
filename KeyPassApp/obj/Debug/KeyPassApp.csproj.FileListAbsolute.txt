@@ -1,0 +1,8 @@
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassApp.exe.config
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassApp.exe
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassApp.pdb
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassApp\obj\Debug\KeyPassApp.csprojResolveAssemblyReference.cache
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassApp\obj\Debug\KeyPassApp.Properties.Resources.resources
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassApp\obj\Debug\KeyPassApp.csproj.GenerateResource.Cache
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassApp\obj\Debug\KeyPassApp.exe
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassApp\obj\Debug\KeyPassApp.pdb

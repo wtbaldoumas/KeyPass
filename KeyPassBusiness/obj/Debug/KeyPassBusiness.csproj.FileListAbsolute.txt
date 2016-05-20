@@ -1,0 +1,5 @@
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassBusiness.dll
+C:\Users\William\Drive\Development\C# Projects\KeyPass\Bin\KeyPassBusiness.pdb
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassBusiness\obj\Debug\KeyPassBusiness.csprojResolveAssemblyReference.cache
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassBusiness\obj\Debug\KeyPassBusiness.dll
+C:\Users\William\Drive\Development\C# Projects\KeyPass\KeyPassBusiness\obj\Debug\KeyPassBusiness.pdb
