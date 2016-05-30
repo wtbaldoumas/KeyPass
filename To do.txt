@@ -1,4 +1,4 @@
-- Add username field to password form and integrate it with encryption/decryption
+- Add username field to password form and integrate it with encryption/decryption - DONE
 - Add about button to password form for clarification of app use
 - Add find functionality
 - Increase overall security

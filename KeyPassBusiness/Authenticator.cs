@@ -2,12 +2,12 @@
 {
     public static class Authenticator
     {
-        private static byte[] _passwordBytes = null;
+        private static byte[] _cryptoBytes = null;
 
-        public static byte[] PasswordBytes
+        public static byte[] CryptoBytes
         {
-            get { return _passwordBytes; }
-            set { _passwordBytes = value; }
+            get { return _cryptoBytes; }
+            set { _cryptoBytes = value; }
         }
     }
 }

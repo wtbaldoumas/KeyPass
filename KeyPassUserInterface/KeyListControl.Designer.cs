@@ -107,6 +107,7 @@
             this._listViewKeysFindButton.Name = "_listViewKeysFindButton";
             this._listViewKeysFindButton.Size = new System.Drawing.Size(23, 22);
             this._listViewKeysFindButton.Text = "Find";
+            this._listViewKeysFindButton.Click += new System.EventHandler(this.OnFindClick);
             // 
             // toolStripSeparator11
             // 
@@ -180,6 +181,7 @@
             this._listViewKeysComboBox.Name = "_listViewKeysComboBox";
             this._listViewKeysComboBox.Size = new System.Drawing.Size(121, 21);
             this._listViewKeysComboBox.TabIndex = 6;
+            this._listViewKeysComboBox.DropDown += new System.EventHandler(this.OnDropDown);
             // 
             // KeyListControl
             // 

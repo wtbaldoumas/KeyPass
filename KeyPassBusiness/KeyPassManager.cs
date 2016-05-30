@@ -63,7 +63,7 @@ namespace KeyPassBusiness
                 binaryFormatter.Serialize(memoryStream, _groups);
 
                 byte[] buffer = memoryStream.GetBuffer();
-                byte[] cipherBuffer = Cryptographer.Encrypt(buffer, Authenticator.PasswordBytes);
+                byte[] cipherBuffer = Cryptographer.Encrypt(buffer, Authenticator.CryptoBytes);
 
                 using (FileStream fileStream = File.OpenWrite(FileName))
                 {
@@ -79,7 +79,7 @@ namespace KeyPassBusiness
 
             try
             {
-                using (MemoryStream memoryStream = new MemoryStream(Cryptographer.Decrypt(cipher, Authenticator.PasswordBytes)))
+                using (MemoryStream memoryStream = new MemoryStream(Cryptographer.Decrypt(cipher, Authenticator.CryptoBytes)))
                 {
                     BinaryFormatter binaryFormatter = new BinaryFormatter();
                     _loadGroups = (List<Group>)binaryFormatter.Deserialize(memoryStream);

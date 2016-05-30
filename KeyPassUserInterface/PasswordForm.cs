@@ -14,9 +14,17 @@ namespace KeyPassUserInterface
 
         private void OnOKClick(object sender, EventArgs e)
         {
-            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(_passwordTextBox.Text);
-            SHA1 sha = new SHA1CryptoServiceProvider();
-            Authenticator.PasswordBytes = sha.ComputeHash(bytes);
+            if(string.IsNullOrWhiteSpace(_passwordTextBox.Text) || string.IsNullOrWhiteSpace(_usernameTextBox.Text))
+            {
+                MessageBox.Show(this, "Please fill in empty fields.", "KeyPass", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            byte[] loginBytes = System.Text.Encoding.UTF8.GetBytes(_passwordTextBox.Text + _usernameTextBox.Text);
+            using (SHA1 sha = new SHA1CryptoServiceProvider())
+            {
+                Authenticator.CryptoBytes = sha.ComputeHash(loginBytes);
+            }
 
             DialogResult = DialogResult.OK;
         }

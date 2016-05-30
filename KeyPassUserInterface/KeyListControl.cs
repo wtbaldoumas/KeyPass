@@ -342,5 +342,49 @@ namespace KeyPassUserInterface
         {
             OnDuplicateKey();
         }
+
+        private void OnFindClick(object sender, EventArgs e)
+        {
+            if (_listViewKeys.Items.Count < 1 || string.IsNullOrWhiteSpace(_listViewKeysComboBox.Text))
+            {
+                return;
+            }
+
+            for(int i = 0; i < _listViewKeys.Items.Count; ++i)
+            {
+                foreach(ListViewItem.ListViewSubItem item in _listViewKeys.Items[i].SubItems)
+                {
+                    if(item.Text.Contains(_listViewKeysComboBox.Text))
+                    {
+                        _listViewKeys.Items[i].Selected = true;
+                    }
+                }
+            }
+
+            _listViewKeys.Focus();
+        }
+
+        private void OnDropDown(object sender, EventArgs e)
+        {
+            if (_listViewKeys.Items.Count < 1)
+            {
+                return;
+            }
+
+            _listViewKeysComboBox.Items.Clear();
+            _listViewKeysComboBox.Items.Add(_listViewKeysComboBox.Text);
+            _listViewKeysComboBox.SelectedIndex = 0;
+
+            for (int i = 0; i < _listViewKeys.Items.Count; ++i)
+            {
+                foreach (ListViewItem.ListViewSubItem item in _listViewKeys.Items[i].SubItems)
+                {
+                    if (item.Text.Contains(_listViewKeysComboBox.Text))
+                    {
+                        _listViewKeysComboBox.Items.Add(item.Text);
+                    }
+                }
+            }
+        }
     }
 }
